@@ -1,0 +1,101 @@
+.top-form {
+  background: #ffffff;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.05);
+  padding: 31px 28px;
+}
+.form__title {
+  font-family: "DIN Round Pro-Bold";
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 22px;
+}
+.lowercase{
+  text-transform: none;
+}
+
+.form__input {
+  width: 250px;
+  padding: 20px 0 23px 50.89px;
+}
+.form__input:focus{
+  color: #000000;
+}
+.form__input.validate {
+  border: 1px solid red;
+  color: red;
+}
+.form__input.validate::-webkit-input-placeholder {color:red;}
+.form__input.validate::-moz-placeholder          {color:red;}
+.form__input.validate:-moz-placeholder           {color:red;}
+.form__input.validate:-ms-input-placeholder      {color:red;}
+.form__input::-webkit-input-placeholder {color: #939DAA;}
+.form__input::-moz-placeholder          {color: #939DAA;}
+.form__input:-moz-placeholder           {color: #939DAA;}
+.form__input:-ms-input-placeholder      {color: #939DAA;}
+.form__input-phone {
+  background: url("../img/form/01.svg") 20px 20px no-repeat,
+    rgba(48, 61, 77, 0.1);
+}
+.form__input-email {
+  background: url("../img/form/02.svg") 20px 20px no-repeat,
+    rgba(48, 61, 77, 0.1);
+}
+.form__input-name {
+  background: url("../img/form/03.svg") 20px 20px no-repeat,
+    rgba(48, 61, 77, 0.1);
+}
+.form__field {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form__img {
+  position: absolute;
+}
+.form__img-phone {
+  left: 138px;
+  top: 20px;
+}
+.form__img-message {
+  left: 403px;
+  top: 20px;
+}
+.form__img-name {
+  left: 665px;
+  top: 18px;
+}
+
+.form__policy {
+  display: flex;
+  opacity: 0.2;
+  align-items: center;
+  justify-content: center;
+  margin-top: 18px;
+  padding-bottom: 25px;
+}
+.form__policy > img {
+  padding: 5.5px 4px;
+  border: 1px solid #757779;
+}
+.form__policy > img {
+	padding: 0px;
+}
+.form__policy > p {
+  font-family: 'Montserrat';
+  font-size: 11px;
+  line-height: 14px;
+  margin-left: 13px;
+  padding-right: 13px;
+}
+
+@media (max-width: 600px) {
+  .form__policy > p {
+    font-size: 10px;
+    line-height: 120%;
+    margin-left: 10px;
+    text-align: center;
+}
+}
